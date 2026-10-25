@@ -1,0 +1,18 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {writeZipFiles} from '../lib/archive.mjs';
+import {modPackageEntries,ModExportJobs} from '../lib/mod-package.mjs';
+import {CalendarStore} from '../lib/calendar.mjs';
+import {unzip} from '../lib/codec.mjs';
+const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/lN8AAAAASUVORK5CYII=','base64');
+test('one ZIP preserves BepInEx layout and original plugin bytes, overlays database, calendar and selected image aliases',async t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'world-mod-zip-'));t.after(()=>{assert.ok(path.resolve(root).startsWith(path.resolve(os.tmpdir())+path.sep));fs.rmSync(root,{recursive:true,force:true});});const mod=path.join(root,'base/BepInEx/emskin'),skin=path.join(root,'skin/BepInEx/emskin'),plugins=path.join(root,'base/BepInEx/plugins');fs.mkdirSync(plugins,{recursive:true});fs.mkdirSync(path.join(mod,'database'),{recursive:true});fs.mkdirSync(path.join(skin,'photos'),{recursive:true});fs.writeFileSync(path.join(plugins,'EMSkin.dll'),'unchanged plugin');fs.writeFileSync(path.join(mod,'EMSkinCore.dll'),'unchanged core');fs.writeFileSync(path.join(mod,'database/iamgri mod.emdb'),'old database');fs.writeFileSync(path.join(skin,'photos/real.png'),png);const photo=path.join(root,'selected.jpg');fs.writeFileSync(photo,png);const calendar=new CalendarStore(path.join(root,'workspace'));calendar.importFiles([{name:'calendar_t1.csv',data:Buffer.from('slot;tier;name\nx;1;Calendar\n')}]);
+ const editor={workFile:'selected.emdb',bytes:()=>Buffer.from('selected database'),tables:{Players:{rows:[{Id:'real',Nick:'real'}]},Staff:{rows:[]},Teams:{rows:[]},Tournaments:{rows:[]}},image:()=>({file:photo}),safeImageName:(_t,r)=>r.Id,imageCandidates:()=>['real','fake']},entries=modPackageEntries({editor,calendar,profile:{modRoot:mod,skinRoot:skin}}),dest=path.join(root,'pack.zip'),result=await writeZipFiles(entries,dest),map=new Map(unzip(fs.readFileSync(dest)).map(e=>[e.name,e.data]));assert.equal(map.get('BepInEx/plugins/EMSkin.dll').toString(),'unchanged plugin');assert.equal(map.get('BepInEx/emskin/EMSkinCore.dll').toString(),'unchanged core');assert.equal(map.get('BepInEx/emskin/database/iamgri mod.emdb').toString(),'selected database');assert.ok(map.has('BepInEx/emskin/calendar/calendar_t1.csv'));assert.ok(map.has('BepInEx/emskin/photos/real.jpg'));assert.ok(map.has('BepInEx/emskin/photos/fake.jpg'));assert.ok(!map.has('BepInEx/emskin/photos/real.png'));assert.equal(result.files,entries.length);assert.equal(fs.readFileSync(path.join(mod,'database/iamgri mod.emdb'),'utf8'),'old database');
+ await assert.rejects(writeZipFiles([{name:'../escape',data:png}],path.join(root,'bad.zip')));await assert.rejects(writeZipFiles([{name:'a',data:png},{name:'A',data:png}],path.join(root,'bad.zip')));
+});
+test('completed ZIP results remain discoverable after restart and interrupted jobs are reported',t=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'world-mod-jobs-'));t.after(()=>{assert.ok(path.resolve(root).startsWith(path.resolve(os.tmpdir())+path.sep));fs.rmSync(root,{recursive:true,force:true});});fs.writeFileSync(path.join(root,'.mod-export-jobs.json'),JSON.stringify([{id:'done',workspaceFile:'a.emdb',status:'complete',result:{path:'pack.zip'}},{id:'running',workspaceFile:'b.emdb',status:'running'}]));const jobs=new ModExportJobs(root);assert.equal(jobs.get(null,'a.emdb').id,'done');assert.equal(jobs.get('running').status,'error');assert.equal(jobs.get(null,'missing').status,'none');assert.throws(()=>jobs.get('bad'));
+});

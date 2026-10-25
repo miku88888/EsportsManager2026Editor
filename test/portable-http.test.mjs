@@ -1,0 +1,24 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {spawn} from 'node:child_process';
+import {setTimeout as pause} from 'node:timers/promises';
+import {fileURLToPath} from 'node:url';
+import {saveConfiguration} from '../lib/setup.mjs';
+import {decodeEmdb} from '../lib/codec.mjs';
+import {setupFixture} from './setup.test.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+test('clean portable installation starts with its own settings, edits and imports images, exports native EMDB and rejects invalid tokens',{timeout:30000},async t=>{
+ const temp=fs.mkdtempSync(path.join(os.tmpdir(),'world-portable-'));for(const name of ['lib','public','server.mjs','package.json'])fs.cpSync(path.join(root,name),path.join(temp,name),{recursive:true});const fixture=setupFixture(temp);saveConfiguration(fixture,temp);
+ const proc=spawn(process.execPath,['server.mjs'],{cwd:temp,env:{...process.env,WORLD_EDITOR_PORT:'0'},stdio:'pipe',windowsHide:true});let url='',errors='';proc.stdout.on('data',b=>{url=b.toString().match(/http:\/\/127\.0\.0\.1:\d+/)?.[0]||url;});proc.stderr.on('data',b=>errors+=b);t.after(async()=>{if(proc.exitCode===null&&!proc.killed){proc.kill();for(let i=0;i<20&&proc.exitCode===null;i++)await pause(50);}fs.rmSync(temp,{recursive:true,force:true});});
+ for(let i=0;i<80&&!url&&proc.exitCode===null;i++)await pause(100);assert.ok(url,errors);
+ const get=async route=>{const response=await fetch(url+'/api/'+route);assert.equal(response.status,200);return response.json();},boot=await get('bootstrap');assert.equal(boot.version,'1.3.1');assert.equal(boot.counts.Players,1);assert.equal(boot.workspace.id,'main');assert.ok(boot.integration.configured);
+ const post=async(route,data,token=boot.token)=>{const response=await fetch(url+'/api/'+route,{method:'POST',headers:{'Content-Type':'application/json','X-Editor-Token':token},body:JSON.stringify(data)});return {status:response.status,data:await response.json()};};
+ const row=(await get('rows?table=Players')).rows[0];assert.equal((await post('update',{table:'Players',rid:row._rid,changes:{Skill:'12'}},'invalid')).status,400);assert.equal((await post('update',{table:'Players',rid:row._rid,changes:{Skill:'12'}})).status,200);
+ const png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/lN8AAAAASUVORK5CYII=','base64'),stage=await post('assets-stage',{files:[{path:'emskin/photos/p.png',base64:png.toString('base64')}]});assert.equal(stage.status,200);assert.equal((await post('library-images',stage.data)).status,200);const updated=(await get('record?table=Players&rid='+row._rid)).record;assert.equal(updated.Skill,'12');assert.deepEqual(Buffer.from(await(await fetch(url+updated._image)).arrayBuffer()),png);
+ const exported=await post('export',{});assert.equal(exported.status,200);assert.ok(decodeEmdb(fs.readFileSync(exported.data.path),fixture.key).entries.find(e=>e.name==='Players.csv').data.toString().includes(';12'));
+ const imported=await post('library-import',{base64:fs.readFileSync(fixture.source).toString('base64'),name:'Imported',stageId:stage.data.stageId});assert.equal(imported.status,200);assert.notEqual(imported.data.workspace.id,'main');assert.equal((await get('bootstrap')).counts.Players,1);
+ const source=await fetch(url+'/app.js');assert.ok((await source.text()).includes('boot.customAssets'));assert.ok(!errors.split('\n').some(line=>line.trim()&&!line.includes('会话失效')),errors);
+});
