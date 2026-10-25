@@ -1,0 +1,2742 @@
+{
+  "schema": 1,
+  "provenance": {
+    "method": "Unique country and nonzero prize-total correspondence between the shipped game database and the original World Updated database; explicit historical texture names are marked separately.",
+    "worldSha256": "7573118ad0f68b313e1bd8fb4f278dc720365b16fb522d8240ebcd7229e21a5d",
+    "gameSha256": "49b971d58cb92394875257e49a2dee9512fe97f1fcdfb3c1d59e6c37b932925d"
+  },
+  "teams": [
+    {
+      "nick": "3DMAX",
+      "name": "3DMAX",
+      "aliases": [
+        "3tAX"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "842240"
+      }
+    },
+    {
+      "nick": "DUSTY",
+      "name": "DUSTY",
+      "aliases": [
+        "DUZT"
+      ],
+      "evidence": {
+        "country": "Iceland",
+        "earnings": "25321"
+      }
+    },
+    {
+      "nick": "GenOne",
+      "name": "GenOne",
+      "aliases": [
+        "jenOnz"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "58671"
+      }
+    },
+    {
+      "nick": "BIG",
+      "name": "BIG",
+      "aliases": [
+        "BIXA"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "2612255"
+      }
+    },
+    {
+      "nick": "LEISURE",
+      "name": "Team LEISURE",
+      "aliases": [
+        "LAIOZURE",
+        "Team LAIOZURE"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "16178"
+      }
+    },
+    {
+      "nick": "mYinsanity",
+      "name": "mYinsanity",
+      "aliases": [
+        "mYnisanityy"
+      ],
+      "evidence": {
+        "country": "Switzerland",
+        "earnings": "25740"
+      }
+    },
+    {
+      "nick": "Sissi State Punks",
+      "name": "Sissi State Punks",
+      "aliases": [
+        "Sissi sttae purnks"
+      ],
+      "evidence": {
+        "country": "Austria",
+        "earnings": "44997"
+      }
+    },
+    {
+      "nick": "Ghost",
+      "name": "Ghost Gaming",
+      "aliases": [
+        "Ghozz",
+        "Ghozz Gaming"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "152469"
+      }
+    },
+    {
+      "nick": "777",
+      "name": "777 Esports",
+      "aliases": [
+        "777oi",
+        "777oi Esports"
+      ],
+      "evidence": {
+        "country": "Norway",
+        "earnings": "73664"
+      }
+    },
+    {
+      "nick": "Alliance",
+      "name": "Alliance",
+      "aliases": [
+        "Allainci"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "166733"
+      }
+    },
+    {
+      "nick": "Astralis",
+      "name": "Astralis",
+      "aliases": [
+        "Azarlis"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "10837009"
+      }
+    },
+    {
+      "nick": "ECSTATIC",
+      "name": "ECSTATIC",
+      "aliases": [
+        "ECZTTAIC"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "595194"
+      }
+    },
+    {
+      "nick": "EYEBALLERS",
+      "name": "EYEBALLERS",
+      "aliases": [
+        "EYALLERZ"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "212995"
+      }
+    },
+    {
+      "nick": "FaZe",
+      "name": "FaZe Clan",
+      "aliases": [
+        "Fsae",
+        "Fsae Clan"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "9766957"
+      }
+    },
+    {
+      "nick": "Fnatic",
+      "name": "Fnatic",
+      "aliases": [
+        "Fnatikz"
+      ],
+      "evidence": {
+        "country": "United Kingdom",
+        "earnings": "6383060"
+      }
+    },
+    {
+      "nick": "HAVU",
+      "name": "HAVU",
+      "aliases": [
+        "HARVIU"
+      ],
+      "evidence": {
+        "country": "Finland",
+        "earnings": "731107"
+      }
+    },
+    {
+      "nick": "HEROIC",
+      "name": "HEROIC",
+      "aliases": [
+        "HREIC"
+      ],
+      "evidence": {
+        "country": "Norway",
+        "earnings": "4227547"
+      }
+    },
+    {
+      "nick": "Johnny Speeds",
+      "name": "Johnny Speeds",
+      "aliases": [
+        "Johnyspeds"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "183436"
+      }
+    },
+    {
+      "nick": "Lemondogs",
+      "name": "Lemondogs",
+      "aliases": [
+        "Lmeondogsz"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "60551"
+      }
+    },
+    {
+      "nick": "Lilmix",
+      "name": "Lilmix",
+      "aliases": [
+        "Lilmxiz"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "121695"
+      }
+    },
+    {
+      "nick": "MASONIC",
+      "name": "MASONIC",
+      "aliases": [
+        "MASII"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "84339"
+      }
+    },
+    {
+      "nick": "Metizport",
+      "name": "Metizport",
+      "aliases": [
+        "Metizport"
+      ],
+      "evidence": {
+        "country": "Norway",
+        "earnings": "150355"
+      }
+    },
+    {
+      "nick": "NiP",
+      "name": "Ninjas in Pyjamas",
+      "aliases": [
+        "NiP",
+        "Ninjas in Pyjamas"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "4336457"
+      }
+    },
+    {
+      "nick": "Preasy",
+      "name": "Preasy Esport",
+      "aliases": [
+        "Prxesy",
+        "Prxesy Esport"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "187884"
+      }
+    },
+    {
+      "nick": "Sashi",
+      "name": "Sashi Esport",
+      "aliases": [
+        "Sasy",
+        "Sasy Esport"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "156886"
+      }
+    },
+    {
+      "nick": "Tricked",
+      "name": "Tricked Esport",
+      "aliases": [
+        "Tricqde",
+        "Tricqde Esport"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "520317"
+      }
+    },
+    {
+      "nick": "Wizard",
+      "name": "Wizard Esports",
+      "aliases": [
+        "Wizadrz",
+        "Wizadrz Esports"
+      ],
+      "evidence": {
+        "country": "Norway",
+        "earnings": "19243"
+      }
+    },
+    {
+      "nick": "Rhyno",
+      "name": "Rhyno Esports",
+      "aliases": [
+        "Ryhno",
+        "Ryhno Esports"
+      ],
+      "evidence": {
+        "country": "Portugal",
+        "earnings": "119232"
+      }
+    },
+    {
+      "nick": "SAW",
+      "name": "SAW",
+      "aliases": [
+        "ZAY"
+      ],
+      "evidence": {
+        "country": "Portugal",
+        "earnings": "785999"
+      }
+    },
+    {
+      "nick": "500",
+      "name": "500",
+      "aliases": [
+        "50ru0"
+      ],
+      "evidence": {
+        "country": "Bulgaria",
+        "earnings": "200290"
+      }
+    },
+    {
+      "nick": "9INE",
+      "name": "9INE Pusulabet",
+      "aliases": [
+        "9INeoE",
+        "9INeoE Pusulabet"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "343486"
+      }
+    },
+    {
+      "nick": "Anonymo",
+      "name": "Anonymo Esports",
+      "aliases": [
+        "Anomno",
+        "Anomno Esports"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "126482"
+      }
+    },
+    {
+      "nick": "Aurora",
+      "name": "Aurora Gaming",
+      "aliases": [
+        "Aurorou",
+        "Aurorou Gaming"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "1286380"
+      }
+    },
+    {
+      "nick": "B8",
+      "name": "B8",
+      "aliases": [
+        "B8OA"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "469142"
+      }
+    },
+    {
+      "nick": "Apogee",
+      "name": "Betclic Apogee Esports",
+      "aliases": [
+        "Beclz",
+        "Beclz Apogee Esports"
+      ],
+      "evidence": {
+        "country": "Portugal",
+        "earnings": "50724"
+      }
+    },
+    {
+      "nick": "BRUTE",
+      "name": "BRUTE",
+      "aliases": [
+        "BRUDO"
+      ],
+      "evidence": {
+        "country": "Czech Republic",
+        "earnings": "26635"
+      }
+    },
+    {
+      "nick": "Dynamo Eclot",
+      "name": "Dynamo Eclot",
+      "aliases": [
+        "Dyamz",
+        "Dyamz Eclot"
+      ],
+      "evidence": {
+        "country": "Czech Republic",
+        "earnings": "565703"
+      }
+    },
+    {
+      "nick": "ENCE",
+      "name": "ENCE",
+      "aliases": [
+        "ENCEZR"
+      ],
+      "evidence": {
+        "country": "Finland",
+        "earnings": "2752934"
+      }
+    },
+    {
+      "nick": "ESC",
+      "name": "ESC Gaming",
+      "aliases": [
+        "EZA",
+        "EZA Gaming"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "268499"
+      }
+    },
+    {
+      "nick": "Eternal Fire",
+      "name": "Eternal Fire",
+      "aliases": [
+        "Eternal Fire"
+      ],
+      "evidence": {
+        "country": "Turkey",
+        "earnings": "1135662"
+      }
+    },
+    {
+      "nick": "FAVBET",
+      "name": "FAVBET Team",
+      "aliases": [
+        "FABT",
+        "FABT Team"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "91252"
+      }
+    },
+    {
+      "nick": "G2",
+      "name": "G2 Esports",
+      "aliases": [
+        "J2R",
+        "J2R Esports"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "7220430"
+      }
+    },
+    {
+      "nick": "kONO.ECF",
+      "name": "kONO.ECF",
+      "aliases": [
+        "qOON.ECF"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "50469"
+      }
+    },
+    {
+      "nick": "Leo",
+      "name": "Leo Team",
+      "aliases": [
+        "Leks",
+        "Leks Team"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "45979"
+      }
+    },
+    {
+      "nick": "Liquid",
+      "name": "Team Liquid",
+      "aliases": [
+        "Liuquiz",
+        "Liuquiz Esports"
+      ],
+      "evidence": {
+        "country": "Netherlands",
+        "earnings": "6611538"
+      }
+    },
+    {
+      "nick": "Monte",
+      "name": "Monte",
+      "aliases": [
+        "Mntoe"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "625118"
+      }
+    },
+    {
+      "nick": "MOUZ",
+      "name": "MOUZ",
+      "aliases": [
+        "MAUST"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "7098488"
+      }
+    },
+    {
+      "nick": "TNL",
+      "name": "TEAM NEXT LEVEL",
+      "aliases": [
+        "TNXZ",
+        "TEAM NEXT LEVEYA"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "147146"
+      }
+    },
+    {
+      "nick": "Nexus",
+      "name": "Nexus Gaming",
+      "aliases": [
+        "Neuxs",
+        "Neuxs Gaming"
+      ],
+      "evidence": {
+        "country": "Romania",
+        "earnings": "355624"
+      }
+    },
+    {
+      "nick": "OG",
+      "name": "OG",
+      "aliases": [
+        "OGXZ"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "1392242"
+      }
+    },
+    {
+      "nick": "Partizan",
+      "name": "Partizan Esports",
+      "aliases": [
+        "Batrizan",
+        "Batrizan Esports"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "118798"
+      }
+    },
+    {
+      "nick": "Reason",
+      "name": "Reason Gaming",
+      "aliases": [
+        "Rexasn",
+        "Rexasn Gaming"
+      ],
+      "evidence": {
+        "country": "United Kingdom",
+        "earnings": "78831"
+      }
+    },
+    {
+      "nick": "SINNERS",
+      "name": "SINNERS Esports",
+      "aliases": [
+        "SINERXI",
+        "SINERXI Esports"
+      ],
+      "evidence": {
+        "country": "Czech Republic",
+        "earnings": "645695"
+      }
+    },
+    {
+      "nick": "UNiTY",
+      "name": "UNiTY esports",
+      "aliases": [
+        "UNioTYy",
+        "UNioTYy esports"
+      ],
+      "evidence": {
+        "country": "Slovakia",
+        "earnings": "68506"
+      }
+    },
+    {
+      "nick": "1win",
+      "name": "1win Team",
+      "aliases": [
+        "7vin",
+        "7vin Team"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "517077"
+      }
+    },
+    {
+      "nick": "ALLINNERS",
+      "name": "ALLINNERS",
+      "aliases": [
+        "ALLINRNERYE"
+      ],
+      "evidence": {
+        "country": "Kazakhstan",
+        "earnings": "43749"
+      }
+    },
+    {
+      "nick": "AMKAL",
+      "name": "AMKAL ESPORTS",
+      "aliases": [
+        "AMKLAA",
+        "AMKLAA ESPORTS"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "84774"
+      }
+    },
+    {
+      "nick": "ARCRED",
+      "name": "ARCRED",
+      "aliases": [
+        "ARCZREA"
+      ],
+      "evidence": {
+        "country": "Uzbekistan",
+        "earnings": "90185"
+      }
+    },
+    {
+      "nick": "BetBoom",
+      "name": "BetBoom Team",
+      "aliases": [
+        "BeydBooo",
+        "BeydBooo Team"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "605427"
+      }
+    },
+    {
+      "nick": "Betera",
+      "name": "Betera Esports",
+      "aliases": [
+        "Betxeri",
+        "Betxeri Esports"
+      ],
+      "evidence": {
+        "country": "Belarus",
+        "earnings": "59436"
+      }
+    },
+    {
+      "nick": "CYBERSHOKE",
+      "name": "CYBERSHOKE Esports",
+      "aliases": [
+        "CYPERUSHOKRE",
+        "CYPERUSHOKRE Esports"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "90370"
+      }
+    },
+    {
+      "nick": "DEPO",
+      "name": "DEPO",
+      "aliases": [
+        "DEPEX"
+      ],
+      "evidence": {
+        "country": "Uzbekistan",
+        "earnings": "23622"
+      }
+    },
+    {
+      "nick": "FLuffy Gangsters",
+      "name": "FLuffy Gangsters",
+      "aliases": [
+        "phLuffy Gangsders"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "63952"
+      }
+    },
+    {
+      "nick": "GUN5",
+      "name": "GUN5 Esports",
+      "aliases": [
+        "GUYN5E",
+        "GUYN5E Esports"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "150342"
+      }
+    },
+    {
+      "nick": "HOTU",
+      "name": "HOTU",
+      "aliases": [
+        "HOODU"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "144144"
+      }
+    },
+    {
+      "nick": "Insilio",
+      "name": "Insilio",
+      "aliases": [
+        "Inziilo"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "57473"
+      }
+    },
+    {
+      "nick": "Nemiga",
+      "name": "Nemiga Gaming",
+      "aliases": [
+        "Nemigyx",
+        "Nemigyx Gaming"
+      ],
+      "evidence": {
+        "country": "Cyprus",
+        "earnings": "741260"
+      }
+    },
+    {
+      "nick": "PARIVISION",
+      "name": "PARIVISION",
+      "aliases": [
+        "PRIE",
+        "PRIEVISION"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "670083"
+      }
+    },
+    {
+      "nick": "QUAZAR",
+      "name": "QUAZAR",
+      "aliases": [
+        "QUAZRA"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "42270"
+      }
+    },
+    {
+      "nick": "Sangal",
+      "name": "Sangal Esports",
+      "aliases": [
+        "Sangla",
+        "Sangla Esports"
+      ],
+      "evidence": {
+        "country": "Netherlands",
+        "earnings": "236738"
+      }
+    },
+    {
+      "nick": "Spirit",
+      "name": "Team Spirit",
+      "aliases": [
+        "Siprit",
+        "Team Siprit"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "5497668"
+      }
+    },
+    {
+      "nick": "VP",
+      "name": "Virtus.pro",
+      "aliases": [
+        "VPYY",
+        "Vritus.prx"
+      ],
+      "evidence": {
+        "country": "Armenia",
+        "earnings": "5912202"
+      }
+    },
+    {
+      "nick": "Akimbo",
+      "name": "Akimbo Esports",
+      "aliases": [
+        "Akimzybo",
+        "Akimzybo Esports"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "18666"
+      }
+    },
+    {
+      "nick": "BOSS",
+      "name": "BOSS",
+      "aliases": [
+        "BOZA"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "63700"
+      }
+    },
+    {
+      "nick": "InControl",
+      "name": "InControl",
+      "aliases": [
+        "InCnotroa"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "20700"
+      }
+    },
+    {
+      "nick": "LAG",
+      "name": "Life's A Game",
+      "aliases": [
+        "LaiaG",
+        "Lifex A Gmae"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "64600"
+      }
+    },
+    {
+      "nick": "M80",
+      "name": "M80",
+      "aliases": [
+        "M80"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "354750"
+      }
+    },
+    {
+      "nick": "Mythic",
+      "name": "Mythic",
+      "aliases": [
+        "Mydhc"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "54025"
+      }
+    },
+    {
+      "nick": "NRG",
+      "name": "NRG",
+      "aliases": [
+        "NRXE"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "1280159"
+      }
+    },
+    {
+      "nick": "Passion UA",
+      "name": "Passion UA",
+      "aliases": [
+        "Passion UA"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "263493"
+      }
+    },
+    {
+      "nick": "Take Flyte",
+      "name": "Take Flyte",
+      "aliases": [
+        "Taek flye"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "24766"
+      }
+    },
+    {
+      "nick": "Vireo.pro",
+      "name": "Vireo.pro",
+      "aliases": [
+        "wireo.pz"
+      ],
+      "evidence": {
+        "country": "Canada",
+        "earnings": "13950"
+      }
+    },
+    {
+      "nick": "Wildcard",
+      "name": "Wildcard",
+      "aliases": [
+        "Witlcari"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "240315"
+      }
+    },
+    {
+      "nick": "9z",
+      "name": "9z Team",
+      "aliases": [
+        "9se",
+        "9se Team"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "679930"
+      }
+    },
+    {
+      "nick": "BESTIA",
+      "name": "BESTIA",
+      "aliases": [
+        "BESTOIO"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "274383"
+      }
+    },
+    {
+      "nick": "Bounty Hunters",
+      "name": "Bounty Hunters Esports",
+      "aliases": [
+        "Boonty hutners",
+        "Boonty hutners Esports"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "53749"
+      }
+    },
+    {
+      "nick": "Elevate",
+      "name": "Elevate",
+      "aliases": [
+        "Eelvte"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "45913"
+      }
+    },
+    {
+      "nick": "Fluxo",
+      "name": "Fluxo W7M",
+      "aliases": [
+        "Fluox",
+        "Fluox W7M"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "310778"
+      }
+    },
+    {
+      "nick": "FURIA",
+      "name": "FURIA",
+      "aliases": [
+        "BRAVORA"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "4888564"
+      }
+    },
+    {
+      "nick": "Galorys",
+      "name": "Galorys",
+      "aliases": [
+        "Glaoerys"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "24246"
+      }
+    },
+    {
+      "nick": "Imperial",
+      "name": "Imperial Esports",
+      "aliases": [
+        "Imprail",
+        "Imprail Esports"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "650771"
+      }
+    },
+    {
+      "nick": "Keyd Stars",
+      "name": "Keyd Stars",
+      "aliases": [
+        "Keyd tsary"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "106113"
+      }
+    },
+    {
+      "nick": "KRÜ",
+      "name": "KRÜ Esports",
+      "aliases": [
+        "KRRÜA",
+        "KRRÜA Esports"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "15844"
+      }
+    },
+    {
+      "nick": "Legacy",
+      "name": "Legacy",
+      "aliases": [
+        "Leagaycy"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "463114"
+      }
+    },
+    {
+      "nick": "MIBR",
+      "name": "MIBR",
+      "aliases": [
+        "MBIR"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "2341497"
+      }
+    },
+    {
+      "nick": "ODDIK",
+      "name": "ODDIK",
+      "aliases": [
+        "ODIA"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "230098"
+      }
+    },
+    {
+      "nick": "paIN",
+      "name": "paiN Gaming",
+      "aliases": [
+        "paNI",
+        "paNI Gaming"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "1334179"
+      }
+    },
+    {
+      "nick": "RED Canids",
+      "name": "RED Canids",
+      "aliases": [
+        "REDC anidi"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "174019"
+      }
+    },
+    {
+      "nick": "Ground Zero",
+      "name": "Ground Zero Gaming",
+      "aliases": [
+        "Gronud zro",
+        "Gronud zro Gaming"
+      ],
+      "evidence": {
+        "country": "Australia",
+        "earnings": "39677"
+      }
+    },
+    {
+      "nick": "Mindfreak",
+      "name": "Mindfreak",
+      "aliases": [
+        "Mindpohreak"
+      ],
+      "evidence": {
+        "country": "Australia",
+        "earnings": "41542"
+      }
+    },
+    {
+      "nick": "Rooster",
+      "name": "Rooster",
+      "aliases": [
+        "Rootsre"
+      ],
+      "evidence": {
+        "country": "Australia",
+        "earnings": "91299"
+      }
+    },
+    {
+      "nick": "SemperFi",
+      "name": "SemperFi Esports",
+      "aliases": [
+        "SepmerFy",
+        "SepmerFy Esports"
+      ],
+      "evidence": {
+        "country": "Australia",
+        "earnings": "61251"
+      }
+    },
+    {
+      "nick": "Change The Game",
+      "name": "Change The Game",
+      "aliases": [
+        "Change the oygaxme"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "66662"
+      }
+    },
+    {
+      "nick": "E9",
+      "name": "E9 Esports",
+      "aliases": [
+        "E0O",
+        "E0O Esports"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "23453"
+      }
+    },
+    {
+      "nick": "Lynn Vision",
+      "name": "Lynn Vision Gaming",
+      "aliases": [
+        "Lyn nison",
+        "Lyn nison Gaming"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "471077"
+      }
+    },
+    {
+      "nick": "Rare Atom",
+      "name": "Rare Atom",
+      "aliases": [
+        "Rar atzzom"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "239103"
+      }
+    },
+    {
+      "nick": "Steel Helmet",
+      "name": "Steel Helmet",
+      "aliases": [
+        "Steli helmey"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "103685"
+      }
+    },
+    {
+      "nick": "TYLOO",
+      "name": "TYLOO",
+      "aliases": [
+        "DYLOU"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "2162237"
+      }
+    },
+    {
+      "nick": "WDNMD",
+      "name": "WDNMD",
+      "aliases": [
+        "WDMND"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "34559"
+      }
+    },
+    {
+      "nick": "Alter Ego",
+      "name": "Alter Ego",
+      "aliases": [
+        "Atler ega"
+      ],
+      "evidence": {
+        "country": "Indonesia",
+        "earnings": "6900"
+      }
+    },
+    {
+      "nick": "ATOX",
+      "name": "ATOX Esports",
+      "aliases": [
+        "ATAA",
+        "ATAA Esports"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "112428"
+      }
+    },
+    {
+      "nick": "Chinggis Warriors",
+      "name": "Chinggis Warriors",
+      "aliases": [
+        "Chinggizw arriors"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "136941"
+      }
+    },
+    {
+      "nick": "Eruption",
+      "name": "Eruption",
+      "aliases": [
+        "Erupitoy"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "71700"
+      }
+    },
+    {
+      "nick": "IHC",
+      "name": "IHC Esports",
+      "aliases": [
+        "IHKS",
+        "IHKS Esports"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "125707"
+      }
+    },
+    {
+      "nick": "JiJieHao",
+      "name": "JiJieHao",
+      "aliases": [
+        "JiJeiHaz"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "121097"
+      }
+    },
+    {
+      "nick": "The Huns",
+      "name": "The Huns Esports",
+      "aliases": [
+        "Dhe hnz",
+        "Dhe hnz Esports"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "78790"
+      }
+    },
+    {
+      "nick": "The MongolZ",
+      "name": "The MongolZ",
+      "aliases": [
+        "The Monjuols"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "2628411"
+      }
+    },
+    {
+      "nick": "Bravado",
+      "name": "Bravado Gaming",
+      "aliases": [
+        "Pravaod",
+        "Pravaod Gaming"
+      ],
+      "evidence": {
+        "country": "South Africa",
+        "earnings": "255342"
+      }
+    },
+    {
+      "nick": "Kitsune",
+      "name": "Kitsune Esports",
+      "aliases": [
+        "Qidsuneo",
+        "Qidsuneo Esports"
+      ],
+      "evidence": {
+        "country": "South Africa",
+        "earnings": "15006"
+      }
+    },
+    {
+      "nick": "Nixuh",
+      "name": "Nixuh",
+      "aliases": [
+        "Niksuh"
+      ],
+      "evidence": {
+        "country": "South Africa",
+        "earnings": "37210"
+      }
+    },
+    {
+      "nick": "Gaimin Gladiators",
+      "name": "Gaimin Gladiators",
+      "aliases": [
+        "Geimin gladiars"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "126637"
+      }
+    },
+    {
+      "nick": "RUBY",
+      "name": "Team RUBY",
+      "aliases": [
+        "ex-URBo",
+        "Team ex-URBo"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "89284"
+      }
+    },
+    {
+      "nick": "Bebop",
+      "name": "Team Bebop",
+      "aliases": [
+        "Beuboz",
+        "Team Beuboz"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "60000"
+      }
+    },
+    {
+      "nick": "magic",
+      "name": "Team magic",
+      "aliases": [
+        "magiaa",
+        "Team magiaa"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "35125"
+      }
+    },
+    {
+      "nick": "Nemesis",
+      "name": "Team Nemesis",
+      "aliases": [
+        "Nemziz",
+        "Team Nemziz"
+      ],
+      "evidence": {
+        "country": "Singapore",
+        "earnings": "57276"
+      }
+    },
+    {
+      "nick": "BET-M",
+      "name": "BET-M 33",
+      "aliases": [
+        "PED-M",
+        "Team PED-M"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "95184"
+      }
+    },
+    {
+      "nick": "SPARTA",
+      "name": "Team SPARTA",
+      "aliases": [
+        "ZPARDA",
+        "Team ZPARDA"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "15442"
+      }
+    },
+    {
+      "nick": "Gentle Mates",
+      "name": "Team Gentle Mates",
+      "aliases": [
+        "Jeontle matey",
+        "Team Jeontle matey"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "99418"
+      }
+    },
+    {
+      "nick": "100 Thieves",
+      "name": "100 Thieves",
+      "aliases": [
+        "100e dhievezs",
+        "Team 100e dhievezs"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "194250"
+      }
+    },
+    {
+      "nick": "Nuclear TigeRES",
+      "name": "Nuclear TigeRES",
+      "aliases": [
+        "Nuclear TiigREx"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "49518"
+      }
+    },
+    {
+      "nick": "FUT",
+      "name": "FUT Esports",
+      "aliases": [
+        "PHUT",
+        "PHUT Esports"
+      ],
+      "evidence": {
+        "country": "Turkey",
+        "earnings": "364324"
+      }
+    },
+    {
+      "nick": "Kolesie",
+      "name": "Kolesie",
+      "aliases": [
+        "Kolseixe"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "45000"
+      }
+    },
+    {
+      "nick": "WW",
+      "name": "WW team",
+      "aliases": [
+        "VWX",
+        "VWX team"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "18679"
+      }
+    },
+    {
+      "nick": "Phantom",
+      "name": "Phantom Esports",
+      "aliases": [
+        "Fandom",
+        "Fandom Esports"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "20062"
+      }
+    },
+    {
+      "nick": "Rebels",
+      "name": "Rebels Gaming",
+      "aliases": [
+        "Rebelxo",
+        "Rebelxo Gaming"
+      ],
+      "evidence": {
+        "country": "Spain",
+        "earnings": "58267"
+      }
+    },
+    {
+      "nick": "Voca",
+      "name": "Voca",
+      "aliases": [
+        "Voeco"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "37913"
+      }
+    },
+    {
+      "nick": "Falcons Force",
+      "name": "Falcons Force",
+      "aliases": [
+        "Falonsfrce"
+      ],
+      "evidence": {
+        "country": "Saudi Arabia",
+        "earnings": "1159"
+      }
+    },
+    {
+      "nick": "THUNDER dOWNUNDER",
+      "name": "THUNDER dOWNUNDER",
+      "aliases": [
+        "THNDRE",
+        "THNDRE dOWNUNDER"
+      ],
+      "evidence": {
+        "country": "Australia",
+        "earnings": "22993"
+      }
+    },
+    {
+      "nick": "Marsborne",
+      "name": "Marsborne",
+      "aliases": [
+        "Marbsornz"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "52550"
+      }
+    },
+    {
+      "nick": "NOVAQ",
+      "name": "NOVAQ",
+      "aliases": [
+        "NOWZAQ"
+      ],
+      "evidence": {
+        "country": "Kazakhstan",
+        "earnings": "29615"
+      }
+    },
+    {
+      "nick": "Lazer Cats",
+      "name": "Lazer Cats",
+      "aliases": [
+        "Lazer cei"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "18310"
+      }
+    },
+    {
+      "nick": "PsychoFace",
+      "name": "PsychoFace",
+      "aliases": [
+        "Pzychophce"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "51841"
+      }
+    },
+    {
+      "nick": "MANA",
+      "name": "MANA eSports",
+      "aliases": [
+        "MNAI",
+        "MNAI eSports"
+      ],
+      "evidence": {
+        "country": "Albania",
+        "earnings": "48682"
+      }
+    },
+    {
+      "nick": "INFINITE",
+      "name": "INFINITE",
+      "aliases": [
+        "INIPHINITE"
+      ],
+      "evidence": {
+        "country": "Romania",
+        "earnings": "19897"
+      }
+    },
+    {
+      "nick": "AM",
+      "name": "Achieveminds Gaming",
+      "aliases": [
+        "AMKS",
+        "Acehiveeminds Gaming"
+      ],
+      "evidence": {
+        "country": "Andorra",
+        "earnings": "17220"
+      }
+    },
+    {
+      "nick": "AaB",
+      "name": "AaB esport",
+      "aliases": [
+        "Aeo",
+        "Aeo esport"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "23233"
+      }
+    },
+    {
+      "nick": "MOUZ NXT",
+      "name": "MOUZ NXT",
+      "aliases": [
+        "MAUSTNEXT",
+        "MAUST NEXT"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "351786"
+      }
+    },
+    {
+      "nick": "ShindeN",
+      "name": "ShindeN",
+      "aliases": [
+        "Shineto"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "62979"
+      }
+    },
+    {
+      "nick": "HEROIC Academy",
+      "name": "HEROIC Academy",
+      "aliases": [
+        "HREIC Academy"
+      ],
+      "evidence": {
+        "country": "Norway",
+        "earnings": "7522"
+      }
+    },
+    {
+      "nick": "HYPERSPIRIT",
+      "name": "HYPERSPIRIT",
+      "aliases": [
+        "HYBERSPIIRT"
+      ],
+      "evidence": {
+        "country": "Romania",
+        "earnings": "6940"
+      }
+    },
+    {
+      "nick": "aimclub",
+      "name": "aimclub",
+      "aliases": [
+        "aimulz"
+      ],
+      "evidence": {
+        "country": "Romania",
+        "earnings": "16000"
+      }
+    },
+    {
+      "nick": "Young Ninjas",
+      "name": "Young Ninjas",
+      "aliases": [
+        "Young Ninjas"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "212460"
+      }
+    },
+    {
+      "nick": "Inner Circle",
+      "name": "Inner Circle Esports",
+      "aliases": [
+        "Inner kircel",
+        "Inner kircel Esports"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "54575"
+      }
+    },
+    {
+      "nick": "Fisher College",
+      "name": "Fisher College",
+      "aliases": [
+        "Fisr collega"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "28500"
+      }
+    },
+    {
+      "nick": "CYBERSHOKE Prospects",
+      "name": "Team CYBERSHOKE Prospects",
+      "aliases": [
+        "CYPERUSHOKRE Prospects",
+        "CYPERUSHOKRE Esports Prospects"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "750"
+      }
+    },
+    {
+      "nick": "TNC",
+      "name": "TNC Esports",
+      "aliases": [
+        "DNX",
+        "DNX Esports"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "50000"
+      }
+    },
+    {
+      "nick": "Fire Flux",
+      "name": "Fire Flux Esports",
+      "aliases": [
+        "Phire fluxi",
+        "Phire fluxi Esports"
+      ],
+      "evidence": {
+        "country": "Turkey",
+        "earnings": "22900"
+      }
+    },
+    {
+      "nick": "Isurus",
+      "name": "Isurus Gaming",
+      "aliases": [
+        "Isruo",
+        "Isruo Gaming"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "258186"
+      }
+    },
+    {
+      "nick": "BIG Academy",
+      "name": "BIG Academy",
+      "aliases": [
+        "BIXA Academy"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "233196"
+      }
+    },
+    {
+      "nick": "Playing Ducks",
+      "name": "Playing Ducks",
+      "aliases": [
+        "Playing duqx"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "28062"
+      }
+    },
+    {
+      "nick": "megoshort",
+      "name": "megoshort",
+      "aliases": [
+        "megoschoyra"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "4102"
+      }
+    },
+    {
+      "nick": "TS Academy",
+      "name": "Team Spirit Academy",
+      "aliases": [
+        "Siprit Academy",
+        "Team Siprit Academy"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "268255"
+      }
+    },
+    {
+      "nick": "los kogutos",
+      "name": "los kogutos",
+      "aliases": [
+        "lors ucogutos"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "77100"
+      }
+    },
+    {
+      "nick": "ASTRAL",
+      "name": "ASTRAL Esports",
+      "aliases": [
+        "AZTAL",
+        "AZTAL Esports"
+      ],
+      "evidence": {
+        "country": "Latvia",
+        "earnings": "1200"
+      }
+    },
+    {
+      "nick": "G2 Ares",
+      "name": "G2 Ares Esports",
+      "aliases": [
+        "G3 rees",
+        "G3 rees Esports"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "18325"
+      }
+    },
+    {
+      "nick": "Aurora YB",
+      "name": "Aurora Young Blud",
+      "aliases": [
+        "Aurorou YB",
+        "Aurorou Gaming Young Blud"
+      ],
+      "evidence": {
+        "country": "Serbia",
+        "earnings": "39320"
+      }
+    },
+    {
+      "nick": "EC Banga",
+      "name": "EC Banga",
+      "aliases": [
+        "EC Baznogx"
+      ],
+      "evidence": {
+        "country": "Latvia",
+        "earnings": "8000"
+      }
+    },
+    {
+      "nick": "NEXVOID",
+      "name": "NEXVOID",
+      "aliases": [
+        "NEXOVIT"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "12500"
+      }
+    },
+    {
+      "nick": "Phantom Academy",
+      "name": "Phantom Esports Academy",
+      "aliases": [
+        "Fandom Academy",
+        "Fandom Esports Academy"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "700"
+      }
+    },
+    {
+      "nick": "Legion",
+      "name": "Legion",
+      "aliases": [
+        "Leijon"
+      ],
+      "evidence": {
+        "country": "Pakistan",
+        "earnings": "5000"
+      }
+    },
+    {
+      "nick": "Morningstar",
+      "name": "Morningstar",
+      "aliases": [
+        "Moninsgtar"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "8566"
+      }
+    },
+    {
+      "nick": "The MongolZ Academy",
+      "name": "The MongolZ Academy",
+      "aliases": [
+        "The Monjuols Academy"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "15000"
+      }
+    },
+    {
+      "nick": "aAa",
+      "name": "against All authority",
+      "aliases": [
+        "aAez",
+        "ajaisnt Alri authrtiy"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "80366"
+      }
+    },
+    {
+      "nick": "Procyon",
+      "name": "Procyon Gaming",
+      "aliases": [
+        "Prkon",
+        "Prkon Gaming"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "7155"
+      }
+    },
+    {
+      "nick": "R2",
+      "name": "R2 Esports",
+      "aliases": [
+        "R3I",
+        "R3I Esports"
+      ],
+      "evidence": {
+        "country": "Argentina",
+        "earnings": "1500"
+      }
+    },
+    {
+      "nick": "Yawara",
+      "name": "Yawara",
+      "aliases": [
+        "Yaraa"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "4927"
+      }
+    },
+    {
+      "nick": "3DMAX Academy",
+      "name": "3DMAX Academy",
+      "aliases": [
+        "3tAX Academy"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "2300"
+      }
+    },
+    {
+      "nick": "BORING PLAYERS",
+      "name": "BORING PLAYERS",
+      "aliases": [
+        "BORING LPAYERZ"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "4460"
+      }
+    },
+    {
+      "nick": "ENCE Academy",
+      "name": "ENCE Academy",
+      "aliases": [
+        "ENCEZR Academy"
+      ],
+      "evidence": {
+        "country": "Finland",
+        "earnings": "57689"
+      }
+    },
+    {
+      "nick": "NAVI Junior",
+      "name": "Natus Vincere Junior",
+      "aliases": [
+        "NAWA Junior",
+        "Ntaus Vicnee Junior"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "326593"
+      }
+    },
+    {
+      "nick": "Dark Tigers",
+      "name": "Dark Tigers",
+      "aliases": [
+        "Tak tigera"
+      ],
+      "evidence": {
+        "country": "Slovakia",
+        "earnings": "54126"
+      }
+    },
+    {
+      "nick": "MIBR Academy",
+      "name": "MIBR Academy",
+      "aliases": [
+        "MBIR Academy"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "12000"
+      }
+    },
+    {
+      "nick": "paiN Academy",
+      "name": "paiN Gaming Academy",
+      "aliases": [
+        "paNI Academy",
+        "paNI Gaming Academy"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "20612"
+      }
+    },
+    {
+      "nick": "RUSTEC",
+      "name": "RUSTEC",
+      "aliases": [
+        "RUXSTC"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "21947"
+      }
+    },
+    {
+      "nick": "WAZABI",
+      "name": "WAZABI",
+      "aliases": [
+        "WAAI"
+      ],
+      "evidence": {
+        "country": "Denmark",
+        "earnings": "45000"
+      }
+    },
+    {
+      "nick": "FengDa",
+      "name": "FengDa Gaming",
+      "aliases": [
+        "FenDga",
+        "FenDga Gaming"
+      ],
+      "evidence": {
+        "country": "China",
+        "earnings": "42656"
+      }
+    },
+    {
+      "nick": "WHITEBIRD",
+      "name": "WHITEBIRD",
+      "aliases": [
+        "WHIETBIRA"
+      ],
+      "evidence": {
+        "country": "Belarus",
+        "earnings": "23500"
+      }
+    },
+    {
+      "nick": "BMZ",
+      "name": "BMZ Esports",
+      "aliases": [
+        "PMA",
+        "PMA Esports"
+      ],
+      "evidence": {
+        "country": "Mongolia",
+        "earnings": "10000"
+      }
+    },
+    {
+      "nick": "SINQU",
+      "name": "SINQU Esports",
+      "aliases": [
+        "SIANIQU",
+        "SIANIQU Esports"
+      ],
+      "evidence": {
+        "country": "Finland",
+        "earnings": "2300"
+      }
+    },
+    {
+      "nick": "FTW",
+      "name": "FTW Esports Club",
+      "aliases": [
+        "FTIWZ",
+        "FTIWZ Esports Club"
+      ],
+      "evidence": {
+        "country": "Portugal",
+        "earnings": "124192"
+      }
+    },
+    {
+      "nick": "FURIA Academy",
+      "name": "FURIA Academy",
+      "aliases": [
+        "BRAVORA Academy"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "57644"
+      }
+    },
+    {
+      "nick": "AGO",
+      "name": "AGO esports",
+      "aliases": [
+        "AJOO",
+        "AJOO esports"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "820184"
+      }
+    },
+    {
+      "nick": "AVEZ",
+      "name": "AVEZ",
+      "aliases": [
+        "AEZY"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "62338"
+      }
+    },
+    {
+      "nick": "LDLC",
+      "name": "Team LDLC",
+      "aliases": [
+        "LDCI",
+        "Team LDCI"
+      ],
+      "evidence": {
+        "country": "France",
+        "earnings": "583657"
+      }
+    },
+    {
+      "nick": "ARCY",
+      "name": "ARCY",
+      "aliases": [
+        "ARUCAY"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "85125"
+      }
+    },
+    {
+      "nick": "Eternal Fire Academy",
+      "name": "Eternal Fire Academy",
+      "aliases": [
+        "Eternal Fire Academy"
+      ],
+      "evidence": {
+        "country": "Turkey",
+        "earnings": "24426"
+      }
+    },
+    {
+      "nick": "devils.one",
+      "name": "devils.one",
+      "aliases": [
+        "tewils.ony"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "826894"
+      }
+    },
+    {
+      "nick": "Illuminar",
+      "name": "Illuminar Gaming",
+      "aliases": [
+        "Illumiano",
+        "Illumiano Gaming"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "263739"
+      }
+    },
+    {
+      "nick": "HONORIS",
+      "name": "HONORIS",
+      "aliases": [
+        "HAUNORRIS"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "61206"
+      }
+    },
+    {
+      "nick": "PRIDE",
+      "name": "PRIDE",
+      "aliases": [
+        "PRIA"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "108418"
+      }
+    },
+    {
+      "nick": "Izako Boars",
+      "name": "Izako Boars",
+      "aliases": [
+        "Iazko boary"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "127180"
+      }
+    },
+    {
+      "nick": "PACT",
+      "name": "PACT",
+      "aliases": [
+        "PKAT"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "172284"
+      }
+    },
+    {
+      "nick": "PALOMA",
+      "name": "PALOMA",
+      "aliases": [
+        "PAMA"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "40899"
+      }
+    },
+    {
+      "nick": "Pompa Team",
+      "name": "Pompa Team",
+      "aliases": [
+        "Pom pateay"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "37477"
+      }
+    },
+    {
+      "nick": "ThunderFlash",
+      "name": "ThunderFlash",
+      "aliases": [
+        "Thunderphlasah"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "54357"
+      }
+    },
+    {
+      "nick": "PGE Turów",
+      "name": "PGE Turów Zgorzelec Esport",
+      "aliases": [
+        "PjE Truów",
+        "PjE Truów Zgorzelec Esport"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "43896"
+      }
+    },
+    {
+      "nick": "x-kom",
+      "name": "x-kom Team",
+      "aliases": [
+        "x-qoy",
+        "x-qoy Team"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "102172"
+      }
+    },
+    {
+      "nick": "Wisła Kraków",
+      "name": "Wisła Kraków",
+      "aliases": [
+        "Wsiła krakóa"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "140947"
+      }
+    },
+    {
+      "nick": "Venom",
+      "name": "Team Venom",
+      "aliases": [
+        "Weunom",
+        "Team Weunom"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "55000"
+      }
+    },
+    {
+      "nick": "FORZE",
+      "name": "FORZE",
+      "aliases": [
+        "FOERZ"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "1475169"
+      }
+    },
+    {
+      "nick": "FORZE Reload",
+      "name": "FORZE Reload",
+      "aliases": [
+        "phORZE Reloai"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "31750"
+      }
+    },
+    {
+      "nick": "Gambit",
+      "name": "Gambit Esports",
+      "aliases": [
+        "Gabiyt",
+        "Gabiyt Esports"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "3243276"
+      }
+    },
+    {
+      "nick": "iBUYPOWER",
+      "name": "iBUYPOWER",
+      "aliases": [
+        "ipUYaPOER"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "82253"
+      }
+    },
+    {
+      "nick": "HellRaisers",
+      "name": "HellRaisers",
+      "aliases": [
+        "HlelxReisers"
+      ],
+      "evidence": {
+        "country": "Ukraine",
+        "earnings": "845111"
+      }
+    },
+    {
+      "nick": "AVANGAR",
+      "name": "AVANGAR",
+      "aliases": [
+        "AAVNGAA"
+      ],
+      "evidence": {
+        "country": "Kazakhstan",
+        "earnings": "777101"
+      }
+    },
+    {
+      "nick": "FlipSid3",
+      "name": "Flipsid3 Tactics",
+      "aliases": [
+        "phlipSidy",
+        "phlipSidy Tactics"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "299000"
+      }
+    },
+    {
+      "nick": "RUSH B",
+      "name": "RUSH B",
+      "aliases": [
+        "RUZH g"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "45997"
+      }
+    },
+    {
+      "nick": "Cloud9",
+      "name": "Cloud9 Esports",
+      "aliases": [
+        "Cloudyx",
+        "Cloudyx Esports"
+      ],
+      "evidence": {
+        "country": "United States",
+        "earnings": "3520726"
+      }
+    },
+    {
+      "nick": "Gambit Youngsters",
+      "name": "Gambit Youngsters",
+      "aliases": [
+        "Gabiyt Youngsters",
+        "Gabiyt Esports Youngsters"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "271030"
+      }
+    },
+    {
+      "nick": "DreamEaters",
+      "name": "DreamEaters",
+      "aliases": [
+        "DeraxmEaters"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "62208"
+      }
+    },
+    {
+      "nick": "K23",
+      "name": "K23",
+      "aliases": [
+        "K3Z"
+      ],
+      "evidence": {
+        "country": "Kazakhstan",
+        "earnings": "356767"
+      }
+    },
+    {
+      "nick": "Winstrike",
+      "name": "Winstrike Team",
+      "aliases": [
+        "Winsrtiko",
+        "Winsrtiko Team"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "120274"
+      }
+    },
+    {
+      "nick": "Space",
+      "name": "Team Space",
+      "aliases": [
+        "Spzacze",
+        "Team Spzacze"
+      ],
+      "evidence": {
+        "country": "Russia",
+        "earnings": "34000"
+      }
+    },
+    {
+      "nick": "VP.Prodigy",
+      "name": "VP.Prodigy",
+      "aliases": [
+        "Vb.Pdoigy"
+      ],
+      "evidence": {
+        "country": "Armenia",
+        "earnings": "78837"
+      }
+    },
+    {
+      "nick": "Permitta",
+      "name": "Permitta Esports",
+      "aliases": [
+        "Bermitat",
+        "Bermitat Esports"
+      ],
+      "evidence": {
+        "country": "Switzerland",
+        "earnings": "77367"
+      }
+    },
+    {
+      "nick": "ENTERPRISE",
+      "name": "ENTERPRISE esports",
+      "aliases": [
+        "ENOTEPRISEZ",
+        "ENOTEPRISEZ esports"
+      ],
+      "evidence": {
+        "country": "Slovakia",
+        "earnings": "140680"
+      }
+    },
+    {
+      "nick": "QMISTRY",
+      "name": "QMISTRY",
+      "aliases": [
+        "QMITSRO"
+      ],
+      "evidence": {
+        "country": "Poland",
+        "earnings": "3400"
+      }
+    },
+    {
+      "nick": "Imperial Valkyries",
+      "name": "Imperial Valkyries",
+      "aliases": [
+        "Imberial phmale"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "157468"
+      }
+    },
+    {
+      "nick": "Let Her Cook",
+      "name": "Let Her Cook",
+      "aliases": [
+        "LDI",
+        "Leza Hai Coko"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "42650"
+      }
+    },
+    {
+      "nick": "FURIA Fe",
+      "name": "FURIA Female",
+      "aliases": [
+        "BRAVOAR Femalz"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "281301"
+      }
+    },
+    {
+      "nick": "MIBR fe",
+      "name": "MIBR Female",
+      "aliases": [
+        "MIBF emzale"
+      ],
+      "evidence": {
+        "country": "Brazil",
+        "earnings": "111011"
+      }
+    },
+    {
+      "nick": "BIG EQUIPA",
+      "name": "BIG EQUIPA",
+      "aliases": [
+        "BIXA ECKUIPA"
+      ],
+      "evidence": {
+        "country": "Germany",
+        "earnings": "104852"
+      }
+    },
+    {
+      "nick": "NIP Impact",
+      "name": "NIP Impact",
+      "aliases": [
+        "NIP Impact"
+      ],
+      "evidence": {
+        "country": "Sweden",
+        "earnings": "50414"
+      }
+    },
+    {
+      "nick": "NAVI",
+      "name": "Natus Vincere",
+      "aliases": [
+        "NAWA",
+        "Ntaus Vicnee"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    },
+    {
+      "nick": "Falcons",
+      "name": "Falcons Esports",
+      "aliases": [
+        "Falcnoi",
+        "Falcnoi Esports"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    },
+    {
+      "nick": "WOPA",
+      "name": "WOPA Esport",
+      "aliases": [
+        "WOPOAX",
+        "WOPOAX Esport"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    },
+    {
+      "nick": "K27",
+      "name": "K27",
+      "aliases": [
+        "K37X"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    },
+    {
+      "nick": "STATE",
+      "name": "STATE Esport",
+      "aliases": [
+        "STAZ",
+        "STAZ Esport"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    },
+    {
+      "nick": "FarmVille",
+      "name": "FarmVille",
+      "aliases": [
+        "pharmVilly"
+      ],
+      "evidence": {
+        "kind": "bundled texture identity"
+      }
+    }
+  ]
+}
