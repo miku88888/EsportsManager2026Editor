@@ -1,0 +1,13 @@
+/settings.json
+/running.json
+/project/
+/exports/
+/runtime/
+/dist/
+/*.log
+/.env*
+*.emdb
+*.dll
+node_modules/
+.DS_Store
+Thumbs.db
